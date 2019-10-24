@@ -1,0 +1,23 @@
+{
+  "name": "longcz/autoapi",
+  "description": "API文档自动生成（ThinkPHP5）",
+  "version": "v1.0",
+  "type": "think-extend",
+  "authors": [
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "longcz\\autoapi\\": "src"
+    },
+    "files": [
+      "helper.php"
+    ]
+  },
+  "require": {},
+  "extra": {
+    "think-config": {
+      "doc": "config.php"
+    }
+  }
+}
